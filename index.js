@@ -3,7 +3,7 @@ var cors = require('cors')
 var app = express()
  
 app.use(cors())
-app.get('/', function (req, res) {
+app.get('/data', function (req, res) {
   res.send(excel)
 })
 
